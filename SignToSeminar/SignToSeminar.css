@@ -15,12 +15,25 @@ body {
     text-decoration-line: none;
 }
 
+.button:first-of-type {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 20px;
+}
+
+.button:last-of-type {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 20px;
+}
+
 .button:hover {
     color: darkgoldenrod;
     background-color: navajowhite;
 }
 
 .login {
+    padding: 5px;
     float: right;
     width: 100px;
     border-radius: 10px;
