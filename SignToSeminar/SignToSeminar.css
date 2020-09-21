@@ -1,7 +1,11 @@
 body {
     background-color: bisque;
     font-family: "Montserrat";
+}
 
+p {
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .button {
@@ -9,22 +13,10 @@ body {
     color: navajowhite;
     font-weight: 600;
     background-color: darkgoldenrod;
-    width: 400px;
+    width: 300px;
     height: 25px;
-    padding: 10px;
+    padding: 20px;
     text-decoration-line: none;
-}
-
-.button:first-of-type {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    padding-top: 20px;
-}
-
-.button:last-of-type {
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding-bottom: 20px;
 }
 
 .button:hover {
@@ -33,16 +25,19 @@ body {
 }
 
 .login {
-    padding: 5px;
-    float: right;
     width: 100px;
-    border-radius: 10px;
-    text-align: center;
+    height: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 .back {
-    float: left;
     width: 100px;
-    border-radius: 10px;
-    text-align: center;
+    height: 15px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
 }
