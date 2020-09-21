@@ -26,3 +26,10 @@ body {
     border-radius: 10px;
     text-align: center;
 }
+
+.back {
+    float: left;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
