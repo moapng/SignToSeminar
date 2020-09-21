@@ -1,0 +1,28 @@
+body {
+    background-color: bisque;
+    font-family: "Montserrat";
+
+}
+
+.button {
+    display: inline-block;
+    color: navajowhite;
+    font-weight: 600;
+    background-color: darkgoldenrod;
+    width: 400px;
+    height: 25px;
+    padding: 10px;
+    text-decoration-line: none;
+}
+
+.button:hover {
+    color: darkgoldenrod;
+    background-color: navajowhite;
+}
+
+.login {
+    float: right;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
