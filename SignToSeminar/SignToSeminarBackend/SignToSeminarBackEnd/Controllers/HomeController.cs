@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using SignToSeminarBackEnd.Context;
 
 namespace SignToSeminarBackEnd.Controllers
 {
@@ -14,9 +15,7 @@ namespace SignToSeminarBackEnd.Controllers
         public string Index()
         {
             return "indexpage!!!";
-        }
 
-        //[HttpGet]
-        
+        }
     }
 }
